@@ -11,7 +11,7 @@
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build"
 	},
-	"homepage": "http://jobenapao01.github.io/jobenapao-portfolio",
+	"homepage": "https://jobenapao01.github.io/jobenapao-portfolio",
 	"dependencies": {
 		"@emailjs/browser": "^3.11.0",
 		"@react-three/drei": "^9.68.3",
