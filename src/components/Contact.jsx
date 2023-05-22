@@ -46,10 +46,7 @@ const Contact = () => {
 			.then(
 				() => {
 					setLoading(false)
-					toast.success(
-						'Thank you I will get back to you as soon as possible.',
-						{ id: 'success' }
-					)
+					toast.success('Thank you I will get back to you as soon as possible.')
 					setForm({
 						name: '',
 						email: '',
@@ -59,7 +56,7 @@ const Contact = () => {
 				(error) => {
 					setLoading(false)
 					console.log(error)
-					toast.error('Something went wrong', { id: 'error' })
+					toast.error('Something went wrong')
 				}
 			)
 	}
